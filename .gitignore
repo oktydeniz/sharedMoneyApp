@@ -1,0 +1,36 @@
+# Xcode ve macOS sistem dosyaları
+.DS_Store
+*.swp
+*.lock
+*.xcuserstate
+
+# Xcode Proje Ayarları
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+
+# Logs
+*.log
+*.xcactivitylog
+
+# Temp dosyalar
+tmp/
+*.tmp
+*.swp
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+
+# CocoaPods
+Pods/
+Podfile.lock

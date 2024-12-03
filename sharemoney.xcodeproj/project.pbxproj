@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		820FF3592CF8E4E9002BA251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820FF3582CF8E4E9002BA251 /* AppDelegate.swift */; };
 		820FF35B2CF8E4E9002BA251 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820FF35A2CF8E4E9002BA251 /* SceneDelegate.swift */; };
-		820FF35D2CF8E4E9002BA251 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820FF35C2CF8E4E9002BA251 /* ViewController.swift */; };
 		820FF3602CF8E4E9002BA251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820FF35E2CF8E4E9002BA251 /* Main.storyboard */; };
 		820FF3632CF8E4E9002BA251 /* sharemoney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 820FF3612CF8E4E9002BA251 /* sharemoney.xcdatamodeld */; };
 		820FF3652CF8E4EB002BA251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820FF3642CF8E4EB002BA251 /* Assets.xcassets */; };
 		820FF3682CF8E4EB002BA251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820FF3662CF8E4EB002BA251 /* LaunchScreen.storyboard */; };
+		820FF3702CF8E55D002BA251 /* ActivitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820FF36F2CF8E55D002BA251 /* ActivitiesTableViewController.swift */; };
+		820FF3722CF8F1BF002BA251 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820FF3712CF8F1BF002BA251 /* Activity.swift */; };
+		823A9E812CFA17CC00792DC0 /* PaymentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823A9E802CFA17CC00792DC0 /* PaymentsListViewController.swift */; };
+		82AF5B9B2CFE333900E2865B /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF5B9A2CFE333900E2865B /* Payment.swift */; };
+		82AF5B9D2CFE4BF300E2865B /* PaymentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AF5B9C2CFE4BF300E2865B /* PaymentDetailViewController.swift */; };
+		D820D7FEFB8D10E83073A73F /* Pods_sharemoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990FFF9DAE617645026459FE /* Pods_sharemoney.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AF8A9014D91FFE497E361B2 /* Pods-sharemoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharemoney.release.xcconfig"; path = "Target Support Files/Pods-sharemoney/Pods-sharemoney.release.xcconfig"; sourceTree = "<group>"; };
+		721A87EB3E803AC7CA9805A7 /* Pods-sharemoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharemoney.debug.xcconfig"; path = "Target Support Files/Pods-sharemoney/Pods-sharemoney.debug.xcconfig"; sourceTree = "<group>"; };
 		820FF3552CF8E4E9002BA251 /* sharemoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sharemoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		820FF3582CF8E4E9002BA251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		820FF35A2CF8E4E9002BA251 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		820FF35C2CF8E4E9002BA251 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		820FF35F2CF8E4E9002BA251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		820FF3622CF8E4E9002BA251 /* sharemoney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sharemoney.xcdatamodel; sourceTree = "<group>"; };
 		820FF3642CF8E4EB002BA251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		820FF3672CF8E4EB002BA251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		820FF3692CF8E4EB002BA251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820FF36F2CF8E55D002BA251 /* ActivitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesTableViewController.swift; sourceTree = "<group>"; };
+		820FF3712CF8F1BF002BA251 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		823A9E802CFA17CC00792DC0 /* PaymentsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsListViewController.swift; sourceTree = "<group>"; };
+		82AF5B9A2CFE333900E2865B /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		82AF5B9C2CFE4BF300E2865B /* PaymentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailViewController.swift; sourceTree = "<group>"; };
+		990FFF9DAE617645026459FE /* Pods_sharemoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sharemoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D820D7FEFB8D10E83073A73F /* Pods_sharemoney.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +57,8 @@
 			children = (
 				820FF3572CF8E4E9002BA251 /* sharemoney */,
 				820FF3562CF8E4E9002BA251 /* Products */,
+				B2E610EE80D8D520AB417712 /* Pods */,
+				8F43F99B917FBFED150E31C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +73,61 @@
 		820FF3572CF8E4E9002BA251 /* sharemoney */ = {
 			isa = PBXGroup;
 			children = (
-				820FF3582CF8E4E9002BA251 /* AppDelegate.swift */,
-				820FF35A2CF8E4E9002BA251 /* SceneDelegate.swift */,
-				820FF35C2CF8E4E9002BA251 /* ViewController.swift */,
-				820FF35E2CF8E4E9002BA251 /* Main.storyboard */,
+				82AF5B972CFE309800E2865B /* model */,
+				82AF5B962CFE308400E2865B /* view */,
+				82AF5B952CFE306100E2865B /* controller */,
 				820FF3642CF8E4EB002BA251 /* Assets.xcassets */,
-				820FF3662CF8E4EB002BA251 /* LaunchScreen.storyboard */,
 				820FF3692CF8E4EB002BA251 /* Info.plist */,
 				820FF3612CF8E4E9002BA251 /* sharemoney.xcdatamodeld */,
 			);
 			path = sharemoney;
+			sourceTree = "<group>";
+		};
+		82AF5B952CFE306100E2865B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				823A9E802CFA17CC00792DC0 /* PaymentsListViewController.swift */,
+				820FF3582CF8E4E9002BA251 /* AppDelegate.swift */,
+				820FF35A2CF8E4E9002BA251 /* SceneDelegate.swift */,
+				820FF36F2CF8E55D002BA251 /* ActivitiesTableViewController.swift */,
+				82AF5B9C2CFE4BF300E2865B /* PaymentDetailViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		82AF5B962CFE308400E2865B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				820FF35E2CF8E4E9002BA251 /* Main.storyboard */,
+				820FF3662CF8E4EB002BA251 /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		82AF5B972CFE309800E2865B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				820FF3712CF8F1BF002BA251 /* Activity.swift */,
+				82AF5B9A2CFE333900E2865B /* Payment.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		8F43F99B917FBFED150E31C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				990FFF9DAE617645026459FE /* Pods_sharemoney.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2E610EE80D8D520AB417712 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				721A87EB3E803AC7CA9805A7 /* Pods-sharemoney.debug.xcconfig */,
+				3AF8A9014D91FFE497E361B2 /* Pods-sharemoney.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 820FF36C2CF8E4EB002BA251 /* Build configuration list for PBXNativeTarget "sharemoney" */;
 			buildPhases = (
+				64A3C54446EA043A9F6BCE68 /* [CP] Check Pods Manifest.lock */,
 				820FF3512CF8E4E9002BA251 /* Sources */,
 				820FF3522CF8E4E9002BA251 /* Frameworks */,
 				820FF3532CF8E4E9002BA251 /* Resources */,
+				8765509063F341FB41279CB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,14 +198,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64A3C54446EA043A9F6BCE68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sharemoney-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8765509063F341FB41279CB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sharemoney/Pods-sharemoney-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sharemoney/Pods-sharemoney-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sharemoney/Pods-sharemoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		820FF3512CF8E4E9002BA251 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				820FF35D2CF8E4E9002BA251 /* ViewController.swift in Sources */,
+				820FF3722CF8F1BF002BA251 /* Activity.swift in Sources */,
 				820FF3592CF8E4E9002BA251 /* AppDelegate.swift in Sources */,
+				82AF5B9B2CFE333900E2865B /* Payment.swift in Sources */,
+				823A9E812CFA17CC00792DC0 /* PaymentsListViewController.swift in Sources */,
+				82AF5B9D2CFE4BF300E2865B /* PaymentDetailViewController.swift in Sources */,
 				820FF3632CF8E4E9002BA251 /* sharemoney.xcdatamodeld in Sources */,
+				820FF3702CF8E55D002BA251 /* ActivitiesTableViewController.swift in Sources */,
 				820FF35B2CF8E4E9002BA251 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -230,6 +338,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -279,23 +388,26 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		820FF36D2CF8E4EB002BA251 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721A87EB3E803AC7CA9805A7 /* Pods-sharemoney.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = sharemoney/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -318,11 +430,13 @@
 		};
 		820FF36E2CF8E4EB002BA251 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF8A9014D91FFE497E361B2 /* Pods-sharemoney.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = sharemoney/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
